@@ -104,7 +104,7 @@ const Page = () => {
                     ref={textRef}
                     className="rounded text-gray-800 text-[10px] md:text-sm"
                   >
-                    bc1qu356eaazxf3cplse0e633m5pjqzcmh50ry25h3
+                    TQQiD6iTirTMczxNDae9e9SmBVH7dNezzb
                   </div>
                   <button
                     onClick={handleCopy}
@@ -117,7 +117,7 @@ const Page = () => {
                   <span>{copied && "Copied!"}</span>
                 </div>
               </div>
-              <Image src="/qr.jpeg" alt="Add Money" width={200} height={200} />
+              <Image src="/qrcode.jpg" alt="Add Money" width={200} height={200} />
               <div className="flex  flex-col md:text-lg text-sm items-center mb-5 bg-[#30c1d1]">
                 <div className="font-semibold md:w-lg p-2">
                   Minimum deposit amount is {minDeposit && `${minDeposit} USD`}.
